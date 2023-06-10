@@ -1,0 +1,118 @@
+/* .home1 {
+    position: absolute;
+    weight: 1440;
+    height: 1024;
+    background: pink;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: pink;
+}
+
+.navbar {
+    margin: 0;
+    padding: 14px 16px;
+    background-color: #333;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+
+.navbar-brand-link {
+    text-decoration: none;
+    color: #F6D79A;
+}
+
+.nav-div {
+    float: right;
+    margin-right: 3rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+
+}
+
+li {
+    float: left;
+}
+
+.nav-link {
+    /* display: block; */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+
+
+/* .me-auto {
+    margin-left: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+.h1 {
+    position: absolute;
+    width: 753px;
+    height: 31px;
+    left: 54px;
+    top: 86px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 61px;
+
+    color: #F8EFF2;
+
+}
+
+.p {
+    position: absolute;
+    width: 758px;
+    height: 72px;
+    left: 62px;
+    top: 216px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #666B24;
+}
+
+.gambar1 {
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    left: 400px;
+    top: 66px;
+    border-radius: 25px;
+} */
