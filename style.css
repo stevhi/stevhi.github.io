@@ -1,65 +1,67 @@
-/* .home1 {
-    position: absolute;
-    weight: 1440;
-    height: 1024;
-    background: pink;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;600;800&display=swap");
+
+.home1 {
+  display: flex;
+  justify-content: space-between;
+}
 
 body {
-    margin: 0;
-    padding: 0;
-    background: pink;
+  margin: 0;
+  padding: 0;
+  background: pink;
+  font-family: "Inter", sans-serif;
 }
 
 .navbar {
-    margin: 0;
-    padding: 14px 16px;
-    background-color: #333;
-    width: 100%;
-    position: fixed;
-    top: 0;
+  margin: 0;
+  padding: 14px 0;
+  background-color: #333;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
+.navbar a {
+  margin-left: 16px;
+}
 
 .navbar-brand-link {
-    text-decoration: none;
-    color: #F6D79A;
+  text-decoration: none;
+  color: #f6d79a;
 }
 
 .nav-div {
-    float: right;
-    margin-right: 3rem;
+  display: flex;
+  margin-right: 2rem;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    /* overflow: hidden; */
-
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
 }
 
 li {
-    float: left;
 }
 
 .nav-link {
-    /* display: block; */
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  /* display: block; */
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+  background-color: #111;
 }
 
 .active {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
-
 
 /* .me-auto {
     margin-left: auto;
@@ -106,13 +108,127 @@ li {
     line-height: 36px;
 
     color: #666B24;
+}*/
+
+.gambar1 img {
+  width: 200px;
+  border-radius: 25px;
 }
 
-.gambar1 {
-    position: absolute;
-    width: 100px;
-    height: 200px;
-    left: 400px;
-    top: 66px;
-    border-radius: 25px;
-} */
+.hi {
+  color: #f8eff2;
+}
+
+.step {
+  color: #a02551;
+}
+.ket {
+  color: #666b24;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.all {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+.skills img {
+  width: 150px;
+  height: 150px;
+  border-radius: 25px;
+  display: block;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+.list h1:nth-child(1) {
+  color: #b04747;
+}
+.list h1:nth-child(2) {
+  color: #88902b;
+}
+.list h1:nth-child(3) {
+  color: #0e6072;
+}
+.list h1:nth-child(4) {
+  color: #38891b;
+}
+.list h1:nth-child(5) {
+  color: #97324a;
+}
+.list h1 {
+  text-align: center;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.projects img {
+  width: 150px;
+  height: 350px;
+  border-radius: 25px;
+  display: block;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+.contactlist {
+  background-color: #8e6666;
+  color: #efc7c7;
+  border-radius: 20px;
+  padding: 15px;
+  font-style: italic;
+}
+.contactlist h2:last-child {
+  font-size: 16px;
+}
+.contactlist img {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+.contactme h1 {
+  color: #cb4444;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.contactme {
+  display: flex;
+  column-gap: 20px;
+}
+.contactme .makeup {
+  width: 400px;
+  height: 400px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+.aboutme {
+  background-color: #756984;
+  border-radius: 25px;
+  padding: 10px;
+}
+.aboutme h2 {
+  color: #ee6f77;
+  text-align: right;
+}
+.aboutme p {
+  color: #ecedd5;
+  text-align: justify;
+  font-style: italic;
+}
+.gambar2 {
+  width: 250px;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+}
